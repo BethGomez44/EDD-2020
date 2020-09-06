@@ -1,0 +1,17 @@
+plugins {
+    id 'java';
+    id 'application'
+}
+
+repositories {
+    sourceSets.main.java.srcDirs = ['src']
+    jcenter()
+    mainClassName = 'main.java.app.Interfaz'
+}
+
+dependencies {
+    implementation fileTree(dir: 'lib', include: ['core.jar'])
+}
+run{
+    standardInput = System.in
+}

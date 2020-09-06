@@ -1,0 +1,17 @@
+plugins {
+    id 'java';
+    id 'application'
+}
+
+repositories {
+    sourceSets.main.java.srcDirs = ['src']
+    jcenter()
+    mainClassName = 'main.java.app.Main'
+}
+
+dependencies {
+   
+}
+run{
+    standardInput = System.in
+}

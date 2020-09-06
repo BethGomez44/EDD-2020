@@ -1,0 +1,25 @@
+Práctica 2. Conjuntos
+
+Los conjuntos se componen de:
+
+-Constructor
+-agrega
+-elimina
+
+Y operaciones básicas como:
+
+-subconjunto
+-intersección
+-unión
+-diferencia
+-diferencia simétrica
+-iterador
+
+Comenzariamos nuestra clase Conjunto de la sig. manera, será parecido a Arreglos Dinamicos solo con modificaciones:
+
+public class Conjunto<T> implements Iterable<T> {
+    
+    private int elementos;
+    private T[] arreglo;
+
+}
